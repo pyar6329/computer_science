@@ -1,18 +1,10 @@
 defmodule ComputerScience do
-  @moduledoc """
-  Documentation for ComputerScience.
-  """
+  def push(stack, args) do
+    [args | stack]
+  end
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ComputerScience.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def pop(stack) do
+    [head | tail] = stack
+    {head, tail}
   end
 end
