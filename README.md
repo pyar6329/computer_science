@@ -1,21 +1,11 @@
 # ComputerScience
 
-**TODO: Add description**
+computer science programming
 
-## Installation
+- stack
+- Reverse Polish Notation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `computer_science` to your list of dependencies in `mix.exs`:
+## Environment
 
-```elixir
-def deps do
-  [
-    {:computer_science, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/computer_science](https://hexdocs.pm/computer_science).
+- elixir 1.6-dev
 
